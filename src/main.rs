@@ -1,8 +1,7 @@
 use std::fs;
-use std::path::Path;
 use clap::Parser;
 use serde_json::Value;
-use std::io::{self, Write};
+use std::io::{self, Read};
 
 #[derive(Parser, Debug)]
 #[command(author, version, about, long_about = None)]
